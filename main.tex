@@ -1,0 +1,119 @@
+
+\documentclass[letterpaper,12pt]{article}
+\usepackage[width=17cm]{geometry}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{mathtools}
+\usepackage{pgf,tikz}
+\usetikzlibrary{arrows}
+
+\usepackage{multicol}
+\setlength{\columnsep}{1cm}
+
+\usepackage{mathptmx}
+\usepackage[T1]{fontenc}
+
+
+%\usepackage{mathpazo}
+ \usepackage{amsmath,amsthm,amssymb,amsfonts, enumitem, fancyhdr, color, comment, graphicx, environ}
+\pagestyle{fancy}
+\setlength{\headheight}{65pt}
+
+%\theoremstyle{definition}
+\newtheorem{prob}{Problema}
+\newtheorem{defi}{Definición}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Fill in the appropriate information below
+\lhead{\textbf{Matemática III}\\Hoja de problemas 5\\Ciclo Impar 2020 - 18/Marzo}  %replace with your name
+\rhead{UES - F.CC.NN. y Mat.\\Escuela de Matemática\\por JuanJo Ramírez} %replace XYZ with the homework course number, semester (e.g. ``Spring 2019"), and assignment number.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Do not alter this block.
+\begin{document}
+
+\begin{center}
+\Large \textbf{$\S$ Coordenadas polares}
+\end{center}
+\textbf{Indicación:} Resolver los siguientes problemas dejando claros los argumentos realizados para su resolución.
+\section{Gráficas en coordenadas polares}
+\begin{prob}
+En los siguientes problemas, discutir la simetría y el lugar geométrico de cada ecuación.
+\begin{multicols}{3}
+\begin{enumerate}[label=\alph*)]
+    \item $r=4\cos{\theta}$
+    \item $r=-3\sin{\theta}$
+    \item $\displaystyle r=2\cos\left(\theta+\frac{\pi}{6}\right)$
+    \item $r=3(1-\cos{\theta})$
+    \item $r=2(1+\sin{\theta})$
+    \item $r=2-4\sin{\theta}$
+    \item $r\sin{\theta}=1$
+    \item $r^2=2\cos{\theta}$
+    \item $r^2=2\sin{2\theta}$
+    \item $r^2=\cos{2\theta}$
+    \item $r=5\sin{4\theta}$
+    \item $r=5\sin{2\theta}$
+    \item $\displaystyle r=4\sin^2\left(\frac{\theta}{2}\right)$
+    \item $r=\tan{\theta}$
+    \item $r(2-\cos{\theta})=4$
+    \item $r=2+\theta$
+    \item $r=3-2\theta$
+    \item $r=2e^\theta$
+    \item $r=3e^{-2\theta}$
+\end{enumerate}
+\end{multicols}
+\end{prob}
+\section{Ecuaciones en \textit{coordendas cartesianas vrs coordenadas polares}}
+\begin{prob}
+En los siguientes problemas, las ecuaciones están dadas en coordenadas cartesianas. En cada caso, encontrar una ecuación en coordenadas polares que describa el mismo lugar geométrico.
+\begin{multicols}{3}
+\begin{enumerate}[label=\alph*)]
+    \item $x=-2$
+    \item $y=3$
+    \item $x-y=0$
+    \item $2x+3y=0$
+    \item $2x+y\sqrt{2}=4$
+    \item $xy=4$
+    \item $x^2+y^2+2x-4y=0$
+    \item $x^2+y^2+2x+6y=0$
+    \item $y^2=2x$
+    \item $x^2+y^2-2x=0$
+    \item $x^2+y^2+4y+4=0$
+\end{enumerate}
+\end{multicols}
+\end{prob}
+\newpage
+\begin{prob}
+Encontrar en cada caso una ecuación polinómica en coordenadas cartesianas cuyo lugar geométrico contenga los puntos de la ecuación dada en coordenadas polares. Discutir las posibles soluciones extrañas.
+\begin{multicols}{3}
+\begin{enumerate}[label=\alph*)]
+    \item $r=7$
+    \item $\displaystyle \theta=\frac{\pi}{3}$
+    \item $r=3\cos{\theta}$
+    \item $r\cos{\theta}=5$
+    \item $r\sin{\theta}=-2$
+    \item $\displaystyle r\cos\left(\theta+\frac{\pi}{6}\right)=1$
+    \item $r^2\sin{2\theta}=2$
+    \item $r=2\sec{\theta}\tan{\theta}$
+    \item $r(2-\cos{\theta})=2$
+    \item $r=a\cos{3\theta}$. con $a\in \mathbb{R}$.
+    \item $r=1-\cos{\theta}$
+    \item $r=1-2\sin{\theta}$
+    \item $r=a\cos{2\theta}$, con $a\in \mathbb{R}$.
+\end{enumerate}
+\end{multicols}
+\end{prob}
+
+\begin{prob}
+La ecuación $r^2=\cos{4\theta}$ corresponde a una ecuación polinómica en $x$ y $y$. ¿Cuál es el grado de este polinomio?
+\end{prob}
+
+\begin{prob}
+La ecuación $r^2=\cos(2n\theta)$, donde $n\in \mathbb{N}$, corresponde a un polinomio en $x$ y $y$. ¿Cuál es el grado de este este polinomio?
+\end{prob}
+\end{document}
